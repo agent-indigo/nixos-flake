@@ -9,9 +9,10 @@
   # Configure Plymouth
   boot.plymouth.enable = true;
   boot.plymouth.themePackages = with pkgs; [
+    kdePackages.breeze-plymouth
     nixos-bgrt-plymouth
   ];
-  boot.plymouth.theme = "bgrt";
+  boot.plymouth.theme = "breeze";
   boot.initrd.verbose = false;
   boot.consoleLogLevel = 0;
   boot.kernelParams = [
@@ -40,9 +41,13 @@
     alsa.support32Bit = true;
     pulse.enable = true;
   };
-  # Desktop environment: COSMIC on Wayland
-  services.displayManager.cosmic-greeter.enable = true;
-  services.desktopManager.cosmic.enable = true;
+  # Desktop environment: KDE on Wayland
+  services.displayManager.sddm.enable = true;
+  services.desktopManager.plasma6.enable = true;
+  # Exclude Elisa
+  environment.plasma6.excludePackages = with pkgs.kdePackages; [
+    elisa
+  ];
   # Enable printing (CUPS)
   services.printing.enable = true;
   # Enable Active Directory services
@@ -55,49 +60,19 @@
   programs.steam.enable = true;
   environment.systemPackages = with pkgs; [
     adcli
-    baobab
     dbeaver-bin
-    dialect
     discord
-    drawing
-    file-roller
-    fragments
-    gnome-calculator
-    gnome-characters
-    gnome-clocks
-    gnome-disk-utility
-    gnome-font-viewer
-    gnome-maps
-    gnome-podcasts
-    gnome-power-manager
-    gnome-secrets
-    gnome-sound-recorder
-    gnome-logs
-    gnome-system-monitor
-    gnome-weather
     google-chrome
     gradle
     hunspellDicts-en_CA
     hunspellDicts.fr-any
-    libreoffice
-    loupe
+    libreoffice-qt
     maven
-    mousai
     nodejs
-    papers
     podman-desktop
-    pop-gtk-theme
     postman
     python314
-    redshift
-    shortwave
-    snapshot
-    simple-scan
-    sysprof
-    tuba
-    warp
-    wike
-    wordbook
     vscode
+    vlc
   ];
 }

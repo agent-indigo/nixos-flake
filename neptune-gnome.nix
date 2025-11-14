@@ -31,6 +31,8 @@
   ];
   # Enable the firewall
   networking.firewall.enable = true;
+  # Enable X11 windowing system
+  services.xserver.enable = true;
   # Enable sound with pipewire
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
@@ -40,9 +42,18 @@
     alsa.support32Bit = true;
     pulse.enable = true;
   };
-  # Desktop environment: COSMIC on Wayland
-  services.displayManager.cosmic-greeter.enable = true;
-  services.desktopManager.cosmic.enable = true;
+  # Desktop environment: GNOME
+  services.displayManager.gdm.enable = true;
+  services.desktopManager.gnome.enable = true;
+  # Exclude unnecessary/outdated applications, etc.
+  services.xserver.excludePackages = with pkgs; [
+    xterm
+  ];
+  environment.gnome.excludePackages = with pkgs; [
+    decibels
+    epiphany
+    evince
+  ];
   # Enable printing (CUPS)
   services.printing.enable = true;
   # Enable Active Directory services
@@ -55,49 +66,36 @@
   programs.steam.enable = true;
   environment.systemPackages = with pkgs; [
     adcli
-    baobab
     dbeaver-bin
     dialect
     discord
     drawing
-    file-roller
     fragments
-    gnome-calculator
-    gnome-characters
-    gnome-clocks
-    gnome-disk-utility
-    gnome-font-viewer
-    gnome-maps
+    gnome-browser-connector
+    gnome-extension-manager
+    gnome-photos
     gnome-podcasts
     gnome-power-manager
     gnome-secrets
     gnome-sound-recorder
-    gnome-logs
-    gnome-system-monitor
-    gnome-weather
     google-chrome
     gradle
     hunspellDicts-en_CA
     hunspellDicts.fr-any
     libreoffice
-    loupe
     maven
     mousai
     nodejs
     papers
     podman-desktop
-    pop-gtk-theme
     postman
     python314
-    redshift
     shortwave
-    snapshot
-    simple-scan
     sysprof
     tuba
+    vscode
     warp
     wike
     wordbook
-    vscode
   ];
 }
