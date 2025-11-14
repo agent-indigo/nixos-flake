@@ -32,7 +32,7 @@
   # Enable the firewall
   networking.firewall.enable = true;
   # Enable sound with pipewire
-  hardware.pulseaudio.enable = false;
+  services.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -67,12 +67,12 @@
     gnome-clocks
     gnome-disk-utility
     gnome-font-viewer
+    gnome-logs
     gnome-maps
     gnome-podcasts
     gnome-power-manager
     gnome-secrets
     gnome-sound-recorder
-    gnome-logs
     gnome-system-monitor
     gnome-weather
     google-chrome
