@@ -27,7 +27,6 @@
   # Install applications, etc.
   environment.systemPackages = with pkgs; [
     apostrophe
-    arc-theme
     dialect
     drawing
     fragments
@@ -52,11 +51,8 @@
     gnomeExtensions.windownavigator
     libreoffice
     mousai
-    numix-gtk-theme
-    numix-icon-theme-circle
     orchis-theme
     papers
-    papirus-icon-theme
     shortwave
     sysprof
     tuba

@@ -38,7 +38,6 @@
     loupe
     mousai
     papers
-    pop-gtk-theme
     redshift
     shortwave
     snapshot
