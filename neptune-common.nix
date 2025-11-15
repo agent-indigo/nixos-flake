@@ -40,7 +40,7 @@
   };
   # Enable printing with CUPS
   services.printing.enable = true;
-  # Enable Active Directory services
+  # Enable Active Directory client services
   services.realmd.enable = true;
   services.samba.enable = true;
   services.sssd.enable = true;
@@ -53,7 +53,7 @@
     discord
     google-chrome
     gradle
-    hunspellDicts-en_CA
+    hunspellDicts.en_CA
     hunspellDicts.fr-any
     maven
     nodejs
