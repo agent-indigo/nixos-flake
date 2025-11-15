@@ -43,12 +43,10 @@
     gnomeExtensions.dash-to-panel
     gnomeExtensions.desktop-icons-ng-ding
     gnomeExtensions.favorites-to-applications-grid
-    gnomeExtensions.impatience
     gnomeExtensions.launch-new-instance
     gnomeExtensions.status-icons
     gnomeExtensions.tiling-assistant
     gnomeExtensions.user-themes
-    gnomeExtensions.windownavigator
     libreoffice
     mousai
     orchis-theme

@@ -1,3 +1,4 @@
+# LXQt configuration
 {
   config,
   pkgs,
