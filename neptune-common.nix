@@ -4,6 +4,8 @@
   pkgs,
   ...
 }: {
+  # Enable automatic updates
+  system.autoUpgrade.enable = true;
   # Skip GRUB menu
   boot.loader.timeout = 0;
   boot.loader.grub.timeoutStyle = "hidden";
