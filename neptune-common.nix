@@ -12,12 +12,6 @@
   boot.plymouth.themePackages = with pkgs; [
     nixos-bgrt-plymouth
   ];
-  boot.initrd.verbose = false;
-  boot.consoleLogLevel = 0;
-  boot.kernelParams = [
-    "quiet"
-    "splash"
-  ];
   # Enable sound with pipewire
   services.pulseaudio.enable = false;
   security.rtkit.enable = true;
