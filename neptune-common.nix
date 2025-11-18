@@ -6,7 +6,6 @@
 }: {
   # Skip GRUB menu
   boot.loader.timeout = 0;
-  boot.loader.grub.timeoutStyle = "hidden";
   # Configure boot splash
   boot.plymouth.enable = true;
   boot.plymouth.themePackages = with pkgs; [

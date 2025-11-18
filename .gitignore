@@ -1,2 +1,4 @@
-configuration.nix
-hardware-configuration.nix
+.vscode/
+.DS_Store
+desktop.ini
+thumbs.db

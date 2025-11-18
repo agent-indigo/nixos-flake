@@ -15,7 +15,6 @@
   boot.plymouth.theme = "bgrt";
   # Install applications, etc.
   environment.systemPackages = with pkgs; [
-    apostrophe
     baobab
     dialect
     drawing
