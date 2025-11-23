@@ -29,12 +29,9 @@
     apostrophe
     dialect
     drawing
-    fragments
     gnome-browser-connector
     gnome-photos
-    gnome-podcasts
     gnome-power-manager
-    gnome-secrets
     gnome-sound-recorder
     gnome-tweaks
     gnomeExtensions.alphabetical-app-grid
@@ -48,14 +45,11 @@
     gnomeExtensions.tiling-assistant
     gnomeExtensions.user-themes
     libreoffice
-    mousai
     orchis-theme
     papers
-    shortwave
     snapshot
     sysprof
-    tuba
-    warp
+    transmission_4-gtk
     wike
     wordbook
   ];
