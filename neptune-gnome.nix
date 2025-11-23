@@ -52,6 +52,7 @@
     orchis-theme
     papers
     shortwave
+    snapshot
     sysprof
     tuba
     warp
