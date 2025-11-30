@@ -16,7 +16,6 @@
   # Install applications, etc.
   environment.systemPackages = with pkgs; [
     baobab
-    dialect
     drawing
     file-roller
     gnome-calculator
@@ -36,8 +35,5 @@
     snapshot
     simple-scan
     sysprof
-    warp
-    wike
-    wordbook
   ];
 }

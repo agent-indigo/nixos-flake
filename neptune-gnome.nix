@@ -23,11 +23,12 @@
     decibels
     epiphany
     evince
+    gnome-connections
+    gnome-maps
   ];
   # Install applications, etc.
   environment.systemPackages = with pkgs; [
     apostrophe
-    dialect
     drawing
     gnome-browser-connector
     gnome-photos
@@ -49,7 +50,5 @@
     papers
     snapshot
     sysprof
-    wike
-    wordbook
   ];
 }
