@@ -19,7 +19,6 @@
     dialect
     drawing
     file-roller
-    fragments
     gnome-calculator
     gnome-characters
     gnome-clocks

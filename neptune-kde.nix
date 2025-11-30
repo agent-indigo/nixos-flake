@@ -31,7 +31,6 @@
     kdePackages.kfind
     kdePackages.kolourpaint
     kdePackages.krecorder
-    kdePackages.ktorrent
     kdePackages.kweather
     kdePackages.partitionmanager
     kdePackages.plasma-welcome

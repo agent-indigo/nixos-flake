@@ -49,7 +49,6 @@
     papers
     snapshot
     sysprof
-    transmission_4-gtk
     wike
     wordbook
   ];

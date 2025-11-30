@@ -40,7 +40,6 @@
     libreoffice-qt
     lxqt.qlipper
     qalculate-qt
-    transmission_4-qt
     vlc
   ];
 }

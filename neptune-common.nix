@@ -41,6 +41,7 @@
   environment.systemPackages = with pkgs; [
     dbeaver-bin
     discord
+    frostwire-bin
     google-chrome
     gradle
     hunspellDicts.en_CA
