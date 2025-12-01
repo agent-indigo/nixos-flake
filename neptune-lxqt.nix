@@ -39,7 +39,9 @@
     kdePackages.sweeper
     libreoffice-qt
     lxqt.qlipper
+    papirus-icon-theme
     qalculate-qt
+    vanilla-dmz
     vlc
   ];
 }
