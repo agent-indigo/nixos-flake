@@ -14,8 +14,8 @@
         modules = [
           /etc/nixos/configuration.nix
           /etc/nixos/hardware-configuration.nix
-          ./neptune-common.nix
-          ./neptune-cosmic.nix
+          ./modules/neptune-common.nix
+          ./modules/neptune-cosmic.nix
         ];
       };
       gnome = nixpkgs.lib.nixosSystem {
@@ -23,8 +23,8 @@
         modules = [
           /etc/nixos/configuration.nix
           /etc/nixos/hardware-configuration.nix
-          ./neptune-common.nix
-          ./neptune-gnome.nix
+          ./modules/neptune-common.nix
+          ./modules/neptune-gnome.nix
         ];
       };
       kde = nixpkgs.lib.nixosSystem {
@@ -32,8 +32,8 @@
         modules = [
           /etc/nixos/configuration.nix
           /etc/nixos/hardware-configuration.nix
-          ./neptune-common.nix
-          ./neptune-kde.nix
+          ./modules/neptune-common.nix
+          ./modules/neptune-kde.nix
         ];
       };
       lxqt = nixpkgs.lib.nixosSystem {
@@ -41,8 +41,8 @@
         modules = [
           /etc/nixos/configuration.nix
           /etc/nixos/hardware-configuration.nix
-          ./neptune-common.nix
-          ./neptune-lxqt.nix
+          ./modules/neptune-common.nix
+          ./modules/neptune-lxqt.nix
         ];
       };
       nixos = gnome;
