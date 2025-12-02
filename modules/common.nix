@@ -65,7 +65,6 @@
   networking.firewall.enable = true;
   # Install applications, etc.
   programs.git.enable = true;
-  programs.home-manager.enable = true;
   programs.java.enable = true;
   programs.steam.enable = true;
   environment.systemPackages = with pkgs; [
