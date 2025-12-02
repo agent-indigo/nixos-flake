@@ -8,7 +8,7 @@
     nixpkgs,
     ...
   }: {
-    nixosConfigurations = {
+    nixosConfigurations = rec {
       cosmic = nixpkgs.lib.nixosSystem {
         imports = [
           /etc/nixos/configuration.nix
@@ -37,6 +37,7 @@
         ];
         system = "x86_64-linux";
       };
+      nixos = gnome
     };
   };
 }
