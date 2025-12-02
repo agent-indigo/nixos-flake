@@ -4,7 +4,7 @@
   pkgs,
   ...
 }: {
-  # Skip GRUB menu
+  # Skip boot menu
   boot.loader.timeout = 0;
   # Configure boot splash
   boot.plymouth.enable = true;
@@ -36,6 +36,7 @@
   # Enable the firewall
   networking.firewall.enable = true;
   # Install applications, etc.
+  programs.git.enable = true;
   programs.java.enable = true;
   programs.steam.enable = true;
   environment.systemPackages = with pkgs; [
