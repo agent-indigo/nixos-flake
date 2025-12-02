@@ -1,4 +1,3 @@
-# COSMIC configurations
 {
   config,
   pkgs,

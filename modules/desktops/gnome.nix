@@ -1,4 +1,3 @@
-# GNOME configurations
 {
   config,
   pkgs,

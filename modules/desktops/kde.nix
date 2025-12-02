@@ -1,4 +1,3 @@
-# KDE configurations
 {
   config,
   pkgs,
