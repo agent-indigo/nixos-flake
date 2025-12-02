@@ -1,5 +1,5 @@
 {
-  description = "Custom NixOS configurations used by Commander Neptune of Team Galactic";
+  description = "Custom NixOS Flake";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
   };
@@ -23,7 +23,7 @@
             ...
           }: {
             # Set host name
-            networking.hostName = "NIX-OS-COSMIC-VM";
+            networking.hostName = "NIXOS-COSMIC-VM";
           })
         ];
       };
@@ -41,7 +41,7 @@
             ...
           }: {
             # Set host name
-            networking.hostName = "NIX-OS-GNOME-VM";
+            networking.hostName = "NIXOS-GNOME-VM";
           })
         ];
       };
@@ -59,7 +59,7 @@
             ...
           }: {
             # Set host name
-            networking.hostName = "NIX-OS-KDE-VM";
+            networking.hostName = "NIXOS-KDE-VM";
           })
         ];
       };
@@ -77,7 +77,7 @@
             ...
           }: {
             # Set host name
-            networking.hostName = "NIX-OS-LXQT-VM";
+            networking.hostName = "NIXOS-LXQT-VM";
           })
         ];
       };
