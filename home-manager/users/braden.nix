@@ -3,6 +3,6 @@
   pkgs,
   ...
 }: {
-  programs.git.username = "agent-indigo";
-  programs.git.email = "bradenhynes@gmail.com";
+  programs.git.userName = "agent-indigo";
+  programs.git.userEmail = "bradenhynes@gmail.com";
 }
