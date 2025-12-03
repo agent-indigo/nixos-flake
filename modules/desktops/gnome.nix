@@ -23,7 +23,6 @@
   ];
   # Install applications, etc.
   environment.systemPackages = (with pkgs; [
-    apostrophe
     drawing
     gnome-browser-connector
     gnome-photos
