@@ -24,6 +24,7 @@
   # Install applications, etc.
   environment.systemPackages = (with pkgs; [
     drawing
+    fragments
     gnome-browser-connector
     gnome-photos
     gnome-power-manager
@@ -34,6 +35,7 @@
     papers
     snapshot
     sysprof
+    transmission_4-gtk
   ]) ++ (with pkgs.gnomeExtensions; [
     alphabetical-app-grid
     appindicator

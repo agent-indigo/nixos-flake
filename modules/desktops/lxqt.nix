@@ -39,5 +39,6 @@
     skanlite
     skanpage
     sweeper
+    transmission_4-qt
   ]);
 }

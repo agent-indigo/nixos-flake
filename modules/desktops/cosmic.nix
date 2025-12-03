@@ -13,6 +13,7 @@
     baobab
     drawing
     file-roller
+    fragments
     gnome-calculator
     gnome-characters
     gnome-clocks
@@ -30,5 +31,6 @@
     snapshot
     simple-scan
     sysprof
+    transmission_4-gtk
   ];
 }

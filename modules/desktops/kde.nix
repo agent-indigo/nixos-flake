@@ -29,6 +29,7 @@
     kfind
     kolourpaint
     krecorder
+    ktorrent
     kweather
     partitionmanager
     plasma-welcome
