@@ -24,10 +24,9 @@
     transmission_4-qt
     vanilla-dmz
     vlc
+    webcamoid
   ]) ++ (with pkgs.kdePackages; [
     filelight
-    # Kamoso is broken, apparently
-    # kamoso
     kclock
     kcharselect
     kfind
