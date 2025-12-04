@@ -33,7 +33,6 @@
     libreoffice
     orchis-theme
     papers
-    snapshot
     sysprof
     transmission_4-gtk
   ]) ++ (with pkgs.gnomeExtensions; [

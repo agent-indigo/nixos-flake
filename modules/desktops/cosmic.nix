@@ -31,6 +31,5 @@
     snapshot
     simple-scan
     sysprof
-    transmission_4-gtk
   ];
 }
