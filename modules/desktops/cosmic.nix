@@ -27,7 +27,7 @@
     gnome-sound-recorder
     gnome-system-monitor
     gnome-weather
-    libreoffice
+    libreoffice-fresh
     loupe
     redshift
     snapshot

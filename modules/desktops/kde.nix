@@ -17,7 +17,7 @@
   ];
   # Install applications, etc.
   environment.systemPackages = (with pkgs; [
-    libreoffice-qt
+    libreoffice-qt-fresh
     vlc
   ]) ++ (with pkgs.kdePackages; [
     filelight

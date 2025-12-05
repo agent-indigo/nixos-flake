@@ -17,7 +17,7 @@
   # Install applications, etc.
   environment.systemPackages = (with pkgs; [
     featherpad
-    libreoffice-qt
+    libreoffice-qt-fresh
     lxqt.qlipper
     papirus-icon-theme
     qalculate-qt

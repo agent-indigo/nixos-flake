@@ -32,7 +32,7 @@
     gnome-power-manager
     gnome-sound-recorder
     gnome-tweaks
-    libreoffice
+    libreoffice-fresh
     orchis-theme
     papers
     sysprof
