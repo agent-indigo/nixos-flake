@@ -21,12 +21,13 @@
     lxqt.qlipper
     papirus-icon-theme
     qalculate-qt
+    qdirstat
+    qpdfview
     transmission_4-qt
     vanilla-dmz
     vlc
     webcamoid
   ]) ++ (with pkgs.kdePackages; [
-    filelight
     kclock
     kcharselect
     kfind
@@ -34,7 +35,6 @@
     krecorder
     ksystemlog
     kweather
-    okular
     partitionmanager
     skanlite
     skanpage
