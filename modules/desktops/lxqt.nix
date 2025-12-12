@@ -28,8 +28,8 @@
     vlc
     webcamoid
   ]) ++ (with pkgs.kdePackages; [
-    kclock
     kcharselect
+    kclock
     kfind
     kolourpaint
     krecorder

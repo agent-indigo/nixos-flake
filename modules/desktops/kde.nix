@@ -23,8 +23,8 @@
     filelight
     kamoso
     kcalc
-    kclock
     kcharselect
+    kclock
     kfind
     kolourpaint
     krecorder

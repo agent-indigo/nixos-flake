@@ -65,25 +65,12 @@
   services.printing.enable = true;
   # Enable file and printer sharing with SAMBA
   services.samba.enable = true;
-  # Enable podman service
-  services.podman.enable = true;
   # Enable swapspace service
   services.swapspace.enable = true;
   # Set host name
   networking.hostName = "NIXOS-GNOME-VM";
   # Enable networking
   networking.networkmanager.enable = true;
-  # Open firewall ports used by SAMBA
-  networking.firewall.allowedUDPPorts = [
-    137
-    138
-  ];
-  networking.firewall.allowedTCPPorts = [
-    139
-    445
-  ];
-  # Enable the firewall
-  networking.firewall.enable = true;
   # Install applications, etc.
   programs.git.enable = true;
   programs.java.enable = true;
@@ -104,6 +91,17 @@
     python313
     vscode
   ];
+  # Open firewall ports used by SAMBA
+  networking.firewall.allowedUDPPorts = [
+    137
+    138
+  ];
+  networking.firewall.allowedTCPPorts = [
+    139
+    445
+  ];
+  # Enable the firewall
+  networking.firewall.enable = true;
   # Automate updates
   system.autoUpgrade.enable = true;
   # Automate Nix store cleanup
