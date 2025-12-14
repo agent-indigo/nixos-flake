@@ -19,6 +19,7 @@
     featherpad
     libreoffice-qt-fresh
     lxqt.qlipper
+    meteo-qt
     papirus-icon-theme
     qalculate-qt
     qdirstat
@@ -35,7 +36,6 @@
     kolourpaint
     krecorder
     ksystemlog
-    kweather
     partitionmanager
     skanlite
     skanpage
