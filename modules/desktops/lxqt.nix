@@ -29,6 +29,7 @@
     vanilla-dmz
     vlc
     webcamoid
+    xsane
   ]) ++ (with pkgs.kdePackages; [
     kcharselect
     kclock
@@ -37,8 +38,6 @@
     krecorder
     ksystemlog
     partitionmanager
-    skanlite
-    skanpage
     sweeper
   ]);
 }
