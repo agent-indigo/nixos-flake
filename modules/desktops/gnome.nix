@@ -37,8 +37,7 @@
     dash-to-dock
     dash-to-panel
     desktop-icons-ng-ding
-    # Waiting for support to be restored
-    # favorites-to-applications-grid
+    keep-pinned-apps-in-appgrid
     launch-new-instance
     status-icons
     tiling-assistant
