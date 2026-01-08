@@ -34,9 +34,11 @@
   ]) ++ (with pkgs.gnomeExtensions; [
     alphabetical-app-grid
     appindicator
+    arcmenu
     dash-to-dock
     dash-to-panel
     desktop-icons-ng-ding
+    impatience
     keep-pinned-apps-in-appgrid
     launch-new-instance
     status-icons
