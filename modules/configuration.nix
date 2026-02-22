@@ -83,6 +83,7 @@
     dbeaver-bin
     discord
     exfatprogs
+    fastfetch
     google-chrome
     gradle
     hunspellDicts.en_CA
