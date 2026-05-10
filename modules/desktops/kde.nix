@@ -25,10 +25,12 @@
     kcalc
     kcharselect
     kclock
+    kdenlive
     kfind
     kolourpaint
     krecorder
     ktorrent
+    kwave
     kweather
     partitionmanager
     plasma-welcome

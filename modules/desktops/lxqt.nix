@@ -33,10 +33,12 @@
   ]) ++ (with pkgs.kdePackages; [
     kcharselect
     kclock
+    kdenlive
     kfind
     kolourpaint
     krecorder
     ksystemlog
+    kwave
     partitionmanager
     sweeper
   ]);

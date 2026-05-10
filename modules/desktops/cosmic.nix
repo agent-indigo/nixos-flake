@@ -28,6 +28,7 @@
     gnome-weather
     libreoffice-fresh
     loupe
+    pitivi
     redshift
     snapshot
     simple-scan

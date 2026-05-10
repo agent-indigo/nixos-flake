@@ -79,20 +79,27 @@
   programs.java.enable = true;
   programs.steam.enable = true;
   environment.systemPackages = with pkgs; [
+    android-studio
     android-tools
     dbeaver-bin
     discord
     exfatprogs
     fastfetch
     google-chrome
+    gimp
     gradle
     hunspellDicts.en_CA
     hunspellDicts.fr-any
     maven
+    mongodb-compass
     nodejs
+    obs-studio
+    podman-compose
     podman-desktop
+    podman-docker
     postman
     python313
+    steam
     vscode
   ];
   # Open firewall ports used by SAMBA

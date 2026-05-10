@@ -12,37 +12,39 @@
   services.desktopManager.gnome.enable = true;
   # Exclude unnecessary/outdated applications, etc.
   environment.gnome.excludePackages = with pkgs; [
-    decibels
     epiphany
     evince
     gnome-connections
     gnome-maps
+    gnome-music
+    totem
   ];
   # Install applications, etc.
   environment.systemPackages = (with pkgs; [
+    adw-gtk3
+    audacity
     drawing
     fragments
     gnome-browser-connector
-    gnome-photos
     gnome-power-manager
     gnome-sound-recorder
     gnome-tweaks
     libreoffice-fresh
-    orchis-theme
     papers
+    pitivi
+    showtime
     sysprof
   ]) ++ (with pkgs.gnomeExtensions; [
     alphabetical-app-grid
     appindicator
-    arcmenu
     dash-to-dock
     dash-to-panel
     desktop-icons-ng-ding
-    impatience
     keep-pinned-apps-in-appgrid
     launch-new-instance
+    light-style
+    pop-shell
     status-icons
-    tiling-assistant
     user-themes
   ]);
 }
