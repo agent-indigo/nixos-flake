@@ -1,9 +1,9 @@
-# NixOS Flake
+# NixOS Flakes
 
 ## Description
 
-Custom NixOS Flake
+Custom NixOS Flakes
 
 ## Installation Instructions
 
-`sudo nixos-rebuild switch --upgrade --flake github:agent-indigo/nixos-flake #nixos`
+`sudo nixos-rebuild switch --upgrade-all --flake github:agent-indigo/nixos-flake #[hardware model]`

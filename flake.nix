@@ -1,5 +1,5 @@
 {
-  description = "Custom NixOS Flake";
+  description = "Custom NixOS Flakes";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
   };
@@ -9,14 +9,7 @@
     ...
   }: {
     nixosConfigurations = {
-      nixos = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-        modules = [
-          ./modules/configuration.nix
-          ./modules/hardware-configuration.nix
-          ./modules/desktops/gnome.nix
-        ];
-      };
+
     };
   };
 }
